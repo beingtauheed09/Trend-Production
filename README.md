@@ -24,22 +24,25 @@ Containers: Docker, DockerHub
 Orchestration: Kubernetes (MicroK8s)
 
 📸 Deployment Evidence
-1. CI/CD Pipeline (Jenkins)
+1. Terraform Infrastructure Code
+   <img width="2884" height="6464" alt="01_Terraform-Infrastructure-Code" src="https://github.com/user-attachments/assets/e19a19fb-d02e-4cba-bdd8-5cf3bb7e21df" />
+2. CI/CD Pipeline (Jenkins)
 Successfully executed declarative pipeline showing Cleanup, Checkout, Build, Push, and Deploy stages.
 
 <img width="1919" height="1030" alt="Screenshot 2026-01-07 174452" src="https://github.com/user-attachments/assets/c2ca36c4-e71e-4109-bb47-9fe15587b515" />
 
-2. DockerHub Repository
+3. DockerHub Repository
 Docker image built and pushed to the public registry.
 
 <img width="1919" height="1030" alt="Screenshot 2026-01-07 174721" src="https://github.com/user-attachments/assets/cc5ca5e0-dc3c-48cf-ab66-40e408cfd951" />
 
-3. Kubernetes Cluster Status
+4. Kubernetes Cluster Status
 Current state of Pods, Services, and Deployments in the cluster.
+<img width="1919" height="178" alt="04a_Kubernetes-Node-Status" src="https://github.com/user-attachments/assets/a613a556-6a65-4be0-b06d-9d675ad7d69c" />
 
 <img width="1919" height="364" alt="Screenshot 2026-01-07 175528" src="https://github.com/user-attachments/assets/e58925e6-d3c9-4262-9c6c-b6f37672e137" />
 
-4. Live Application
+5. Live Application
 Final application running in a production state.
 
 URL: http://44.211.55.65:8081
